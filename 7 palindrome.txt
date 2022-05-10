@@ -1,0 +1,11 @@
+11. Palindrome or not 
+PROGRAM: 
+echo "Enter any string" 
+read s
+r=$(echo $s|rev) 
+if [ $r = $s ]
+then
+ echo "$s is palindrome" 
+else
+ echo "$s is not palindrome"
+fi
